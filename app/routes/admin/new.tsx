@@ -1,5 +1,5 @@
 import { useActionData, useTransition, redirect, Form } from "remix";
-import { createPost } from "~/post";
+import { createPost } from "~/backend/post";
 import type { ActionFunction } from "remix";
 import invariant from "tiny-invariant";
 
