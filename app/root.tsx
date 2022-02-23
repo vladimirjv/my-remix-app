@@ -8,13 +8,19 @@ import {
 } from "remix";
 import type { MetaFunction } from "remix";
 import styles from './styles/app.css'
+//import { library } from "@fortawesome/fontawesome-svg-core";
+// import { fas } from "@fortawesome/free-solid-svg-icons";
+//import { faDownload } from "@fortawesome/free-solid-svg-icons";
+//import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons";
+
+//library.add(faTwitter, faFacebook);
 
 export function links() {
   return [{ rel: "stylesheet", href: styles }]
 }
 
 export const meta: MetaFunction = () => {
-  return { title: "New Remix App" };
+  return { title: "Vladimir Juarez 👋" };
 };
 
 export default function App() {

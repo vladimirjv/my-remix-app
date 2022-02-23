@@ -1,8 +1,30 @@
 {
     "name": "Vladimir Juarez 👋",
-    "employment": "Software developer",
+    "employment": "Software developer 👨🏽‍💻",
     "location": "Queretaro",
     "description": "Always commited to learn new things...",
     "contactLink": "https://calendly.com/ivladimirjuarez/30min",
-    "links": []
+    "links": [
+        {
+            "name": "github",
+            "url": "https://github.com/vladimirjv"
+        },
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/vladimir-juarez/"
+        },
+        {
+            "name": "twitter",
+            "url": "https://twitter.com/VladimirJV"
+        },
+        {
+            "name": "dev",
+            "url": "https://dev.to/vladimirjv"
+        },
+        {
+            "name": "instagram",
+            "url": "https://www.instagram.com/_vladimirjv/"
+        }
+    ],
+    "cvLink": "/docs/CV.pdf"
 }

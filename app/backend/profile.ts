@@ -9,11 +9,12 @@ export type Profile = {
     description: string;
     contactLink: "",
     links: LinkSocial[];
+    cvLink?: string
 };
 type LinkSocial = {
     name: string;
     url: string;
-    icon: string;
+    icon?: string;
 };
 export const getProfileInfo = () => {
     return ProfileJson;
